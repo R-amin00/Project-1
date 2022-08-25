@@ -1,0 +1,23 @@
+.button{
+    &,
+    &:link,
+    &:visited {
+        height: 3rem;
+        width: 95%;
+        background-color: $color-primary;
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.1rem;
+        font-weight: 500;
+        text-align: center;
+        padding: .7rem 0;
+        border-radius: 3px;
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    &:hover {
+        background-color: rgb(28, 78, 49);
+    }
+    
+}

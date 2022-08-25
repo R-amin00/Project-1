@@ -1,0 +1,39 @@
+//COLOR
+$color-primary:#3c8067;
+
+$color-white: #ffffff;
+$color-white-cream:#f2ebe3;
+
+$color-dark-blue: #1c232b;
+$color-grayish-blue: #6c7289;
+
+//RESPONSIVE BREAKPOINT
+$bp-lagest:90rem;    //screen 1440px
+$bp-smallest: 23.4375rem;    //screen 375px
+
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    }
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 62.5%;
+    box-sizing: border-box;
+
+    @media only screen and  (max-width: $bp-lagest) {
+        font-size: 110%;
+    }
+
+    @media only screen  and (max-width: $bp-smallest) {
+        font-size: 50%;
+    }
+}
+
+body {
+    background-color: #f1dfcd;
+}

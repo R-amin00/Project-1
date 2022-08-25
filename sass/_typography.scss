@@ -1,0 +1,39 @@
+.heading-tertiary{
+    color: $color-grayish-blue;
+    font-size: .7rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+}
+
+.heading-primary {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: $color-dark-blue;
+}
+
+.paragraph {
+    color: $color-grayish-blue;
+    font-weight: 300;
+    font-size: .875rem;
+}
+
+.money-box {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    
+
+    &--money {
+        color: $color-primary;
+        font-size: 1.8rem;
+        font-weight: 700;
+        margin-right: 1.5rem;
+    }
+
+    &--sub-money {
+        color: $color-grayish-blue;
+        font-size: .8rem;
+    }
+}
